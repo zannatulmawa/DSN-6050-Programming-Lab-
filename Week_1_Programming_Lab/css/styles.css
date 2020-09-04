@@ -1,25 +1,62 @@
-body{
-  background-color: #FBECEC;
+
+* {
+  box-sizing: border-box;
 }
 
-h1{
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #F1DBBC;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
   text-align: center;
- }
-
-h3{
-  text-align: center;
-}
-.image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-bottom: 50px;
+  background: white;
 }
 
-.dogCategory {
+.header h1 {
+  font-size: 50px;
+}
+
+
+.leftcolumn {   
   float: left;
-  width: 33%;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #F1DBBC;
+  padding-left: 20px;
+}
+
+.image {
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
   text-align: center;
-  color: #000000;
+  background: white;
+  margin-top: 20px;
+}
+
+.headings {
+  text-align: center;
 }
