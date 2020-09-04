@@ -4,11 +4,22 @@ body{
 
 h1{
   text-align: center;
-  }
+ }
 
+h3{
+  text-align: center;
+}
 .image{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.dogCategory {
+  float: left;
+  width: 33%;
+  text-align: center;
+  color: #000000;
 }
