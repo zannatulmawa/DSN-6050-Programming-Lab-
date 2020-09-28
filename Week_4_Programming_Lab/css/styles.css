@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #F1DBBC;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 50px;
+  text-align: center;
+  background: white;
+}
+
+.header-img{
+  Height: 300px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 2px solid black;
+  padding: 25px;
+}
+
+nav ul{
+ list-style-type: none;
+ font-size: 1.2em;
+ color: white;
+ margin: auto;
+ padding: 0;
+ width: fit-content;
+}
+
+nav li {
+  float: left;
+  padding: 2px 25px;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: wheat;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+#page-wrapper { width: 70%;
+
+  margin: 0 auto; /* 0 top and bottom, auto left and right */
+  
+  }
+
+.leftcolumn {
+  float: left;
+  width: 100%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #F1DBBC;
+  padding-left: 20px;
+}
+
+.image { 
+  width: 100%; 
+  padding: 20px; 
+  animation: fadeIn 3s; 
+} @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+  
+}
+
+.headings {
+  text-align: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #F1DBBC;
+  padding: 5px;
+}
+.grid-item {
+  background-color:white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: Arial
+}
