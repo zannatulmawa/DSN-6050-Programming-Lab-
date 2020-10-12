@@ -167,11 +167,11 @@ li a:hover {
   margin: 0;
   padding: 5px;
   margin-bottom: 10px;
-  background-color: darkgrey;
+  background-color: #D6D2C4;
 }
 
 .subArticle {
-  background: lightgrey;
+  background: #cdc9c3;
 }
 
 .nom-headings{
