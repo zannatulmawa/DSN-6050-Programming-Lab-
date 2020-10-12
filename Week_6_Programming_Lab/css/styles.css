@@ -112,10 +112,10 @@ li a:hover {
 .grid-item {
   background-color:white;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 5px;
   font-size: 1.2em;
   text-align: center;
-  font-family: Arial
+  font-family: cursive
 }
 
 
@@ -175,5 +175,6 @@ li a:hover {
 }
 
 .nom-headings{
-  text-shadow: 5px 5px #ccc9c9;
+  text-shadow: 2px 2px 8px #df6060;
+  font-size: large;
 }
