@@ -1,0 +1,37 @@
+body{
+    background-image:url("../images/wood.jpg");
+    background-attachment: fixed;
+}
+
+.container-span{
+    width:80%;
+    margin:5%;
+    background-color:rgba(0, 0, 0, 0.8);
+    border: 5px solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.spanImage, .spanInfo{
+    width: 48%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 1%;
+    float: left;
+}
+
+.container-span p{
+    clear: both;
+    padding-top: 15px;
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+}
+
+.container-span a{
+    color:white
+}
+h4{
+    text-align: center;
+    color:white;
+}
+

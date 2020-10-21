@@ -1,0 +1,29 @@
+.tblTransactions{
+    width: 600px;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+.tblTransactions th,td{
+    text-align: left;
+    padding: 5px;
+
+}
+
+.tblTransactions td{
+    border: 1px solid #dddddd;
+}
+
+.tblTransactions tr:nth-child(even){
+    background-color: #eeeeee;
+}
+
+.tblTransactions th:hover{
+    background-color: #0000aa;
+    color:white;
+    cursor: pointer;
+}
+
+.tblTransactions tr:not(:first-child):hover{
+    background-color: #cccccc;
+}

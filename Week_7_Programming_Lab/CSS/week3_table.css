@@ -1,0 +1,14 @@
+.tblFacts{
+    width: 400px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tblFacts th, td{
+    text-align: left;
+    color: blue;
+}
+
+.tblFacts td{
+    border:1px solid #cccccc
+}
